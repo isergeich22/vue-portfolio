@@ -4,6 +4,7 @@ import PrimeVue from 'primevue/config' // Импортируем основно�
 import { definePreset } from '@primeuix/themes' // Импортируем функцию definePreset для создания кастомного пресета темы PrimeVue
 import Lara from '@primeuix/themes/lara' // Подключаем темную тему PrimeVue (Lara Dark Indigo)
 import 'primeicons/primeicons.css' // Подключаем иконки PrimeIcons для использования в компонентах PrimeVue
+import './assets/styles/main.scss' // Подключаем глобальные стили и дизайн-систему приложения
 
 const preset = definePreset(Lara, {}) // Создаём тёмный пресет темы на основе Lara
 
